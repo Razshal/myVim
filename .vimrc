@@ -9,6 +9,10 @@ set statusline+=col:\ %c
 
 "###--- Shortcuts
 set pastetoggle=<F2>
+nmap <F6> :set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+imap <F6> <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
+nmap <F5> :.w !pbcopy<CR><CR>
+vmap <F5> :w !pbcopy<CR><CR>
 
 "###---- Pathogen addon manager
 execute pathogen#infect()
