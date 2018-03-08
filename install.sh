@@ -1,4 +1,4 @@
-cp -D .vim/ $HOME/.vim/
-cp .vimrc $HOME/.vimrc
+cp -R .vim/ $HOME/.vim/
+cp ./.vimrc $HOME/.vimrc
 git -C $HOME/.vim/bundle pull
-cp .zshrc $HOME/.zshrc
+cp ./.zshrc $HOME/.zshrc
