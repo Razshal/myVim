@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/mfonteni/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -102,6 +102,4 @@ alias gitpp="gitp & gitp2"
 alias vin="vim"
 alias hacknasa="echo 'NASA H4CK5D'"
 alias gccc="gcc -Wall -Wextra -Werror"
-alias 42FileChecker='bash ~/42FileChecker/42FileChecker.sh'
 alias dockill='sh ~/myShTools/dockill.sh'
-export PATH=/Users/mfonteni/.brew/bin:/Users/mfonteni/.brew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/munki
