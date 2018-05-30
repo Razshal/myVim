@@ -1,6 +1,6 @@
 rm -f $HOME/.zshrc
 cp .zshrc $HOME/
-rm -f $HOME/.zshrc
+rm -f $HOME/.vimrc
 cp .vimrc $HOME/
 rm -rf $HOME/.vim
 cp -R .vim $HOME/
