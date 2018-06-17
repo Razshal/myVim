@@ -109,4 +109,4 @@ alias hacknasa="echo 'NASA H4CK5D'"
 alias gccc="gcc -Wall -Wextra -Werror"
 alias dockill='sh ~/myShTools/dockill.sh'
 alias dockerprep="sh ~/myShTools/sessionInit.sh"
-alias containers="while(1) {docker ps -a; wait 1; clear}"
+alias containers="while (1) { docker ps -a; sleep 1; clear; }"
