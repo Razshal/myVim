@@ -7,7 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="avit"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -95,11 +95,18 @@ source $ZSH/oh-my-zsh.sh
 #
 fpath=(~/.zsh/completion $fpath)
 autoload -Uz compinit && compinit -i
-alias gita="git add ."
-alias gitp="git push origin master"
-alias gitp2="git push origin2 master"
-alias gitpp="gitp & gitp2"
+# ----- My spelling mistakes
+alias male='make'
 alias vin="vim"
+# ----- Custom git aliases
+alias gita='git add .'
+alias gitp='git push origin master'
+alias gitp2='git push origin2 master'
+alias gitpp='gitp & gitp2'
+alias gitc='git commit -m \"'
+# ----- Useful or not commands
 alias hacknasa="echo 'NASA H4CK5D'"
 alias gccc="gcc -Wall -Wextra -Werror"
 alias dockill='sh ~/myShTools/dockill.sh'
+alias dockerprep="sh ~/myShTools/sessionInit.sh"
+alias containers="while(1) {docker ps -a; wait 1; clear}"
