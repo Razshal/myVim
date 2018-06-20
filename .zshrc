@@ -93,6 +93,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+export PATH=$HOME/.brew/bin:$PATH
 fpath=(~/.zsh/completion $fpath)
 autoload -Uz compinit && compinit -i
 # ----- My spelling mistakes
@@ -110,3 +111,4 @@ alias gccc="gcc -Wall -Wextra -Werror"
 alias dockill='docker rm -f $(docker ps -aq)'
 alias dockerprep="sh ~/myShTools/sessionInit.sh"
 alias containers="while (1) { docker ps -a; sleep 1; clear; }"
+alias baseconv="~/myWorkEnv/decimal_to"
