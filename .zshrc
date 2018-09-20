@@ -112,3 +112,4 @@ alias dockill='docker rm -f $(docker ps -aq)'
 alias dockerprep="sh ~/myShTools/sessionInit.sh"
 alias containers="while (1) { docker ps -a; sleep 1; clear; }"
 alias baseconv="~/myWorkEnv/decimal_to"
+alias bluetoothDebrick="rfkill block bluetooth; rfkill unblock bluetooth"
