@@ -122,4 +122,4 @@ alias commitNorm="echo \"titre trello - motif commit - #{id}\""
 alias webcontainer="docker ps -a | grep carlili_web | awk '{print \$16}'"
 alias carliliDeploy="webcontainer | sh ~/carlili/scripts/carliliDeploy.sh"
 alias stopapa="sudo /etc/init.d/apache2 stop"
-
+alias zshrc="vim ~/.zshrc"
