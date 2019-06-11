@@ -1,0 +1,9 @@
+#Wheel left = previous desktop
+"xdotool key Super+Left"
+m:0x0 + b:6
+#Wheel right = next desktop
+"xdotool key Super+Right"
+m:0x0 + b:7
+#Button next = f11
+"xdotool key F11"
+m:0x0 + b:9
