@@ -109,6 +109,6 @@ alias gitc='git commit -m \"'
 alias hacknasa="echo 'NASA H4CK5D'"
 alias gccc="gcc -Wall -Wextra -Werror"
 alias dockill='docker rm -f $(docker ps -aq)'
-alias dockerprep="sh ~/myShTools/sessionInit.sh"
+alias dockerprep="sh ~/myWorkEnv/sessionInit.sh"
 alias containers="while (1) { docker ps -a; sleep 1; clear; }"
 alias baseconv="~/myWorkEnv/decimal_to"
